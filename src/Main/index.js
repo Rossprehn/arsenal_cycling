@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import "./style.css";
 
 class Main extends Component {
   render() {
     return (
       <div>
-        <p>hi</p>
+        <p>Bike Safety Is Important!</p>
       </div>
     )
   }
