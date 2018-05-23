@@ -5,7 +5,7 @@ class Main extends Component {
   render() {
     return (
       <div>
-        <p>Bike Safety Is Important!</p>
+        <p>No Ordinary Light</p>
       </div>
     )
   }
