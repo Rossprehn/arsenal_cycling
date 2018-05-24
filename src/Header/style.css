@@ -1,5 +1,6 @@
 header {
   height: 4rem;
+  background: #dddddd;
 }
 header ul {
   display: flex;
@@ -13,8 +14,9 @@ header ul a {
   text-decoration: none;
 }
 
+.active,
 a:hover {
-  color: #000;
+  color: yellow;
 }
 
 a:before {
@@ -24,7 +26,7 @@ a:before {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #000;
+  background-color: yellow;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -36,4 +38,9 @@ a:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+}
+
+.selected {
+  color: yellow;
+  text-decoration: underline;
 }
