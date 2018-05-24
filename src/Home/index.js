@@ -5,8 +5,9 @@ import './style.css'
 class Home extends Component {
   render() {
     return (
-      <div>
-        <p>Bike Safety Is Important!</p>
+      <div className="hero-img">
+        <img />
+        <p>No Ordinary Light</p>
       </div>
     )
   }

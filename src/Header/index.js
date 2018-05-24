@@ -4,6 +4,7 @@ import './style.css'
 
 const Header = () => (
   <header>
+    <img />
     <nav>
       <ul>
         <li>

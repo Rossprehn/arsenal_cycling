@@ -1,8 +1,18 @@
-div {
+.hero-img {
   min-width: 100vw;
-  min-height: 100vh;
-  background-image: url('../Images/bike-unsplash.jpg');
+  min-height: 40vw;
+  background-image: url('../Images/Arsenal_Life__U3A5286-Edit.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   color: white;
+  display: flex;
+  flex-flow: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.hero-img p {
+  font-size: 2.5rem;
+  margin: 5vh 8vw 5vh 0 !important;
+  font-weight: 900;
 }
