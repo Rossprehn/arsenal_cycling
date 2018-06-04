@@ -4,7 +4,7 @@ import './style.css'
 
 const Header = () => (
   <header>
-    <img />
+    <img src="" alt="alt"/>
     <nav>
       <ul>
         <li>
