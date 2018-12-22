@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import bikeSilhouette from "../Images/bike_silhouette.svg"
+import bikeSilhouette from '../Images/bike_silhouette.svg'
 import './style.css'
 
 class Home extends Component {
@@ -7,13 +7,13 @@ class Home extends Component {
     return (
       <div>
         <div className="hero-img">
-          <img alt="logo"/>
+          <img alt="logo" />
           <p>No Ordinary Light</p>
         </div>
         <div className="product-container">
           <h3>Our Product</h3>
           <h4>A powerful combination of cycling, technology, and safety</h4>
-          <img src={bikeSilhouette} alt="bike"/>
+          <img src={bikeSilhouette} alt="bike" />
         </div>
       </div>
     )

@@ -4,9 +4,15 @@ import './style.css'
 
 const Header = () => (
   <header>
-    <img src="" alt="alt"/>
+    <div>
+      <nav>
+        <NavLink to="/" >
+          <img src="./assets/AC.png" alt="AC logo" id="home-img" />
+        </NavLink>
+      </nav>
+    </div>
     <nav>
-      <ul>
+      <ul className="nav-bar">
         <li>
           <NavLink to="/about" activeClassName="selected">
             About

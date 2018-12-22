@@ -7,6 +7,7 @@ header ul {
   flex-flow: row nowrap;
   justify-content: flex-end;
   flex: 1;
+  justify-content: space-between;
 }
 
 header ul a {
@@ -41,7 +42,20 @@ a:hover:before {
   transform: scaleX(1);
 }
 
+a{
+  font-size: 1.5rem;
+}
+
 .selected {
   color: yellow;
   text-decoration: underline;
+}
+
+#home-img {
+  height: 50px;
+}
+
+.nav-bar {
+  display: flex;
+  
 }
