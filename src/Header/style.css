@@ -1,6 +1,8 @@
 header {
   height: 4rem;
   background: #dddddd;
+  display: flex;
+  justify-content: space-between;
 }
 header ul {
   display: flex;
@@ -14,6 +16,7 @@ header ul a {
   position: relative;
   color: #000;
   text-decoration: none;
+  margin: 1rem;
 } 
 
 .active,
@@ -43,7 +46,7 @@ a:hover:before {
 }
 
 a{
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .selected {
@@ -55,7 +58,6 @@ a{
   height: 50px;
 }
 
-.nav-bar {
-  display: flex;
-  
+nav{
+  padding: .5rem;
 }
