@@ -3,6 +3,7 @@ header {
   background: #dddddd;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 header ul {
   display: flex;
@@ -10,21 +11,24 @@ header ul {
   justify-content: flex-end;
   flex: 1;
   justify-content: space-between;
+  justify-content: center;
+  align-self: center;
+
 }
 
 header ul a {
   position: relative;
   color: #000;
   text-decoration: none;
-  margin: 1rem;
+  /* margin: 1rem; */
 } 
 
 .active,
-a:hover {
+.head-nav:hover {
   color: yellow;
 }
 
-a:before {
+.head-nav:before {
   content: '';
   position: absolute;
   width: 100%;
@@ -39,14 +43,15 @@ a:before {
   transition: all 0.3s ease-in-out 0s;
 }
 
-a:hover:before {
+.head-nav:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
 
-a{
-  font-size: 4.5vh;
+.head-nav{
+  font-size: 2rem;
+  margin: 1.2rem
 }
 
 .selected {
@@ -55,9 +60,5 @@ a{
 }
 
 #home-img {
-  height: 50px;
-}
-
-nav{
-  padding: .5rem;
+  height: 10vh;
 }

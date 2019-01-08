@@ -14,7 +14,11 @@ class Home extends Component {
         <div className="product-container">
           <h3>Our Product</h3>
           <h4>A powerful combination of cycling, technology, and safety</h4>
-          <NavLink to="/about">see more</NavLink>
+          
+          <div> 
+            <NavLink to="/about">see more</NavLink> 
+          </div>
+          
           <img src={bikeSilhouette} alt="bike" />
         </div>
       </div>
